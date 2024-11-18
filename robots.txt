@@ -1,0 +1,13 @@
+# Allow all robots to crawl the website
+User-agent: *
+Disallow:
+
+# Allow access to the sitemap (important for SEO)
+Sitemap: https://www.example.com/sitemap.xml
+
+# Disallow URL parameters (often used for filtering, search queries, etc.)
+Disallow: /*?*
+
+# Allow all robots to access CSS and JS files for proper rendering
+Allow: /*.css
+Allow: /*.js
